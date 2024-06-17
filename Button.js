@@ -81,6 +81,6 @@ function stopTimer() {
 
 // 페이지 로드 시 초기 설정
 window.onload = () => {
-    setInitialButtonPosition(); // 버튼 초기 위치 설정
+    setButtonPosition(); // 버튼 초기 위치 설정
     startTimer(); // 타이머 시작
 };
